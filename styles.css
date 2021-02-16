@@ -4,3 +4,28 @@
     width: 100%;
     height: 100vh;
 }
+
+/* .container .down-arrow {
+    font-size: 36px;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+}
+
+.container .arrow-button {
+    display: flex;
+    justify-content: center;
+    /* width: -webkit-fill-available; */
+}

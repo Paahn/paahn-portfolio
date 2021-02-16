@@ -10,23 +10,55 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css" />
 </head>
 <body>
-    <header>
-        <nav></nav>
-    </header>
-    <main>
-        <section id="home">
-            <div class="container">
-              <h3>Panos Hatzinikolaou</h3>
-              <h2>Full Stack Web Developer</h2>
-              <p>HTML CSS Javascript React Ruby on Rails</p>
+    <!-- Uses a header that contracts as the page scrolls down. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Logo</span>
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#home">Home</a>
+            <a class="mdl-navigation__link" href="#about">About</a>
+            <a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
+            <a class="mdl-navigation__link" href="#skills">Skills</a>
+            <a class="mdl-navigation__link" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Logo goes here</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#home">Home</a>
+          <a class="mdl-navigation__link" href="#about">About</a>
+          <a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
+          <a class="mdl-navigation__link" href="#skills">Skills</a>
+          <a class="mdl-navigation__link" href="#contact">Contact</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+          <div class="page-content">
+              <section id="home">
+                <div class="container">
+                  <h3 class="container-text">Panos Hatzinikolaou</h3>
+                  <h2 class="container-text">Full Stack Web Developer</h2>
+                  <p class="container-text">HTML CSS Javascript React Ruby on Rails</p>
+                  <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
+                    <span class="material-icons down-arrow">
+                      arrow_downward
+                    </span>  
+                  </button>
+                </div>
+              </section>
+              <section id="about"></section>
+              <section id="portfolio"></section>
+              <section id="skills"></section>
+              <section id="contact"></section>
+              <footer></footer> 
             </div>
-        </section>
-        <section id="about"></section>
-        <section id="portfolio"></section>
-        <section id="skills"></section>
-        <section id="contact"></section>
-        <footer></footer>
-    </main>
+        </main>
+    </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 </html>
