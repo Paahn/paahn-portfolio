@@ -22,4 +22,9 @@
 .container .arrow-button {
     display: flex;
     justify-content: center;
+
+button.mdl-button--fab {
+    background: rgba(66, 34, 66, 0.2);
+}
+
 }
