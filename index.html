@@ -119,6 +119,15 @@
                 <div class="hobbies-text">
                   <div id="hobbies">Hover over icons!</div>
                 </div>
+                 
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
+                  <a href="#portfolio">
+                    <span class="material-icons down-arrow">
+                      arrow_downward
+                    </span>
+                  </a>  
+                </button>
+              </div>
             </div>
           </section>
           <section id="portfolio"></section>
@@ -132,8 +141,6 @@
     <script>
       function toggleClass(x){
         var element = x;
-        // console.log(element.classList[3]);
-        // return element.classList[3];
         document.getElementById("hobbies").innerHTML = `${element.title}`;
       }
     </script>
