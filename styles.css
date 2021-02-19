@@ -27,4 +27,7 @@ button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
 }
 
+.hobbies-text > #hobbies {
+    display: flex;
+    justify-content: center;
 }
