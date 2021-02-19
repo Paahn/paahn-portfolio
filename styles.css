@@ -1,4 +1,4 @@
-#home {
+#home, #about, #portfolio, #skills, #contact {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -19,12 +19,33 @@
     justify-content: center;
 }
 
-.container .arrow-button {
+/* .container .arrow-button {
     display: flex;
     justify-content: center;
+} */
 
 button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
+}
+
+#about > .container {
+    flex-direction: row;
+}
+
+.about-container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.about-container-img > img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.about-container-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hobbies-text > #hobbies {
