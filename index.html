@@ -57,55 +57,55 @@
               <div class="about-container-img"></div>
               <div class="about-container-text"></div>
                 <div class="mdl-grid">
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col pets">
+                  <span onmouseover="toggleClass(this)" title="Animal enthusiast and cat dad" class="material-icons mdl-cell mdl-cell--1-col">
                     pets
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col music">
+                  <span onmouseover="toggleClass(this)" title="Amateur drummer" class="material-icons mdl-cell mdl-cell--1-col">
                     music_note
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col jogging">
+                  <span onmouseover="toggleClass(this)" title="Jogging keeps me in shape - almost in shape" class="material-icons mdl-cell mdl-cell--1-col">
                     directions_run
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col theater">
+                  <span onmouseover="toggleClass(this)" title="Occasional theater goer" class="material-icons mdl-cell mdl-cell--1-col">
                     theater_comedy
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col workouts">
+                  <span onmouseover="toggleClass(this)" title="Regular workouts" class="material-icons mdl-cell mdl-cell--1-col">
                     fitness_center
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col swimming">
+                  <span onmouseover="toggleClass(this)" title="Swimming when in a warmer climate" class="material-icons mdl-cell mdl-cell--1-col">
                     pool
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col basketball">
+                  <span onmouseover="toggleClass(this)" title="Basketball" class="material-icons mdl-cell mdl-cell--1-col">
                     sports_basketball
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col soccer">
+                  <span onmouseover="toggleClass(this)" title="Soccer" class="material-icons mdl-cell mdl-cell--1-col">
                     sports_soccer
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col videogaming">
+                  <span onmouseover="toggleClass(this)" title="Video gaming" class="material-icons mdl-cell mdl-cell--1-col">
                     sports_esports
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col coffee">
+                  <span onmouseover="toggleClass(this)" title="Occasional coffee these days" class="material-icons mdl-cell mdl-cell--1-col">
                     coffee
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col tea">
+                  <span onmouseover="toggleClass(this)" title="Tea is life" class="material-icons mdl-cell mdl-cell--1-col">
                     emoji_food_beverage
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col barbecue">
+                  <span onmouseover="toggleClass(this)" title="Barbecue" class="material-icons mdl-cell mdl-cell--1-col">
                     outdoor_grill
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col cook">
+                  <span onmouseover="toggleClass(this)" title="Greek food cook" class="material-icons mdl-cell mdl-cell--1-col">
                     dining
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col nature">
+                  <span onmouseover="toggleClass(this)" title="Nature nut" class="material-icons mdl-cell mdl-cell--1-col">
                     emoji_nature
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col reading">
+                  <span onmouseover="toggleClass(this)" title="Book worm" class="material-icons mdl-cell mdl-cell--1-col">
                     menu_book
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col movies">
+                  <span onmouseover="toggleClass(this)" title="Movie afficionado" class="material-icons mdl-cell mdl-cell--1-col">
                     theaters
                   </span>
-                  <span onmouseover="toggleClass(this)" class="material-icons mdl-cell mdl-cell--1-col tech">
+                  <span onmouseover="toggleClass(this)" title="Tech geek" class="material-icons mdl-cell mdl-cell--1-col">
                     system_security_update
                   </span>
                 </div>
@@ -127,7 +127,7 @@
         var element = x;
         // console.log(element.classList[3]);
         // return element.classList[3];
-        document.getElementById("hobbies").innerHTML = `${element.classList[3]}`;
+        document.getElementById("hobbies").innerHTML = `${element.title}`;
       }
     </script>
 </body>
