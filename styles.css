@@ -27,10 +27,6 @@
 button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
 }
-/* 
-#about > .container {
-    flex-direction: row;
-} */
 
 .about-container-img {
     display: flex;
@@ -46,6 +42,20 @@ button.mdl-button--fab {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.about-container-education {
+    display: flex;
+    justify-content: center;
+}
+
+.mdl-card {
+    padding: 15px;
+    margin: 15px;
+}
+
+.about-container-education .mdl-card__media {
+    background-color: bisque;
 }
 
 .hobbies-icons {
