@@ -27,10 +27,10 @@
 button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
 }
-
+/* 
 #about > .container {
     flex-direction: row;
-}
+} */
 
 .about-container-img {
     display: flex;
@@ -46,6 +46,11 @@ button.mdl-button--fab {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.hobbies-icons {
+    justify-content: space-evenly;
+    width: 70%;
 }
 
 .hobbies-text > #hobbies {
