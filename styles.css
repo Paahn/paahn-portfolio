@@ -48,6 +48,9 @@ button.mdl-button--fab {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 400px;
+    padding: 25px;
+    margin: 10px;
 }
 
 .about-container-education {
@@ -62,6 +65,24 @@ button.mdl-button--fab {
 
 .about-container-education .mdl-card__media {
     background-color: bisque;
+}
+
+.about-container-education .mdl-card__media img {
+    /* width: 173px;  */
+    height: 154px;
+    border: 0;
+}
+
+.about-container-certification {
+    display: flex;
+}
+
+.about-container-certification .drf-certificate, .about-container-certification .python-masterclass-certificate {
+    background-color: steelblue;
+}
+
+.about-container-certification .academind-css-certificate {
+    background-color: blueviolet;
 }
 
 .hobbies-icons {
