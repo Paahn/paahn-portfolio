@@ -28,6 +28,12 @@ button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
 }
 
+.about-container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-container-img {
     display: flex;
     justify-content: center;
