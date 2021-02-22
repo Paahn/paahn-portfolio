@@ -75,6 +75,7 @@ button.mdl-button--fab {
 
 .about-container-certification {
     display: flex;
+    justify-content: center;
 }
 
 .about-container-certification .drf-certificate, .about-container-certification .python-masterclass-certificate {
