@@ -91,6 +91,13 @@ button.mdl-button--fab {
     margin: 15px;
 }
 
+.hobbies-text {
+  display: inline-block;
+  position: relative;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
 .hobbies-icons .hobby-icon {
     display: flex;
     justify-content: center;
