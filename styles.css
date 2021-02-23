@@ -64,7 +64,7 @@ button.mdl-button--fab {
 }
 
 .about-container-education .mdl-card__media {
-    background-color: bisque;
+    background-color: #ffffff;
 }
 
 .about-container-education .mdl-card__media img {
@@ -76,6 +76,7 @@ button.mdl-button--fab {
 .about-container-certification {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .about-container-certification .drf-certificate, .about-container-certification .python-masterclass-certificate {
@@ -104,11 +105,11 @@ button.mdl-button--fab {
     padding: 5px;
     margin: 10px;
     border: 1px solid grey;
-    background-color: rgb(247, 203, 188);
+    background-color: #52c78f;
 }
 
 .hobby-icon:hover {
-    background-color: rgb(238, 179, 159);
+    background-color: #68f1ae;
 }
 
 .hobbies-icons {
