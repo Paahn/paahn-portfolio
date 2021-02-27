@@ -1,8 +1,9 @@
-#home, #about, #portfolio, #skills, #contact {
+#home, #about-introduction, #about-education, 
+#portfolio, #skills, #contact {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .container {
