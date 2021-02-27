@@ -20,10 +20,9 @@
     justify-content: center;
 }
 
-/* .container .arrow-button {
-    display: flex;
-    justify-content: center;
-} */
+.container .arrow-button {
+    margin: 0 auto;
+}
 
 button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
