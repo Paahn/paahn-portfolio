@@ -54,6 +54,14 @@ button.mdl-button--fab {
     margin: 10px;
 }
 
+.about-container-education > .uop-degree {
+    background-color: crimson;
+}
+
+.about-container-education > .lhl-diploma {
+    background-color: green;
+}
+
 .about-container-education {
     display: flex;
     justify-content: center;
@@ -68,10 +76,14 @@ button.mdl-button--fab {
     background-color: #ffffff;
 }
 
-.about-container-education .mdl-card__media img {
-    /* width: 173px;  */
-    height: 154px;
+.about-container-education img {
+    height: 54px;
     border: 0;
+    object-fit: contain;
+}
+
+.education-media {
+    display: flex;
 }
 
 .about-container-certification {
