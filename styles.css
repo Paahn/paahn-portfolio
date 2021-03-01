@@ -132,4 +132,41 @@ button.mdl-button--fab {
 .hobbies-text > #hobbies {
     display: flex;
     justify-content: center;
+}.project {
+    height: auto;
+}
+
+.project img {
+    height: 50vh;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: absolute; */
+    background: rbga(0, 0, 0, 0.8);
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    /* bottom: 0; */
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+}
+@media (min-width: 840px){
+  .project .mdl-cell {
+    width: auto;
+  }  
+}
+
+@media (min-width: 840px){
+  .project .mdl-cell--6-col, .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {
+    width: auto;
+  }
 }
