@@ -145,6 +145,8 @@ button.mdl-button--fab {
 .projects-title {
     display: flex;
     justify-content: center;
+    background: rgb(178,255,89);
+    margin: 15px;
 }
 
 .project {
