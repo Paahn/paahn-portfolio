@@ -169,6 +169,7 @@ button.mdl-button--fab {
     transition: 0.5s ease;
     opacity: 0;
     bottom: 0;
+    margin-bottom: 45px;
     font-size: 20px;
     padding: 20px 0px;
     text-align: center;
@@ -180,8 +181,17 @@ button.mdl-button--fab {
 @media (min-width: 840px){
   .project .mdl-cell {
     width: auto;
+    margin: 0;
+    margin-bottom: 8px;
   }  
 }
+
+@media (min-width: 840px){
+    .mdl-grid.project {
+        padding: 0;
+    }
+}
+ 
 
 @media (min-width: 840px){
   .project .mdl-cell--6-col, .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {
