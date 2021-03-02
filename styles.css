@@ -185,6 +185,14 @@ button.mdl-button--fab {
     justify-content: space-between;
 }
 
+.overlay-link {
+    cursor: pointer;
+}
+
+.overlay-link a {
+    text-decoration: none;
+}
+
 .overlay-gutter {
     width: 20px;
 }
