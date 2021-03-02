@@ -173,6 +173,9 @@ button.mdl-button--fab {
     font-size: 20px;
     padding: 20px 0px;
     text-align: center;
+    color: white;
+    right: 0;
+}
 }
 
 .project:hover .overlay{
