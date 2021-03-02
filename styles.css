@@ -176,6 +176,17 @@ button.mdl-button--fab {
     color: white;
     right: 0;
 }
+.overlay-item {
+    padding: 5px;
+}
+
+.overlay-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay-gutter {
+    width: 20px;
 }
 
 .project:hover .overlay{
