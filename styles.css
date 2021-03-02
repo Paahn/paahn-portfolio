@@ -99,6 +99,10 @@ button.mdl-button--fab {
     background-color: blueviolet;
 }
 
+.mdl-card__supporting-text a {
+    text-decoration: none;
+}
+
 .hobbies {
     padding: 15px;
     margin: 15px;
