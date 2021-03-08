@@ -146,7 +146,7 @@ button.mdl-button--fab {
     flex-direction: column;
 }
 
-.projects-title {
+.section-title {
     display: flex;
     justify-content: center;
     background: rgb(178,255,89);
@@ -226,6 +226,10 @@ button.mdl-button--fab {
 }
 
 /* skills section */
+
+#skills {
+    flex-direction: column;
+}
 
 #skills-animation:hover .animated-skill-html-css {
     -webkit-border-radius:30px;
