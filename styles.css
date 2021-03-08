@@ -224,3 +224,33 @@ button.mdl-button--fab {
     width: auto;
   }
 }
+
+/* skills section */
+
+#skills-animation:hover .animated-skill-html-css {
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);    margin-left:420px;
+    background-color:#fff;
+}
+
+#skills-animation .animated-skill img {
+    width: 200px;
+}
+
+#skill1 {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  border: 1px #f00 solid;
+}
+
+.animated-skill-html-css {
+    text-align: center;
+}
