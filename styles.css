@@ -243,6 +243,11 @@ button.mdl-button--fab {
     background-color:#fff;
 }
 
+.animated-skill {
+    width: 200px;
+    border-radius: 23px;
+}
+
 #skills-animation .animated-skill img {
     width: 200px;
 }
