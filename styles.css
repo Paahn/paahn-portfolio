@@ -1,5 +1,4 @@
-#home, #about-introduction, #about-education,
-#skills, #contact {
+#home, #about-introduction, #about-education, #contact {
     display: flex;
     justify-content: center;
     width: 100%;
