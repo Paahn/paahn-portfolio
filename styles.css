@@ -231,7 +231,7 @@ button.mdl-button--fab {
     flex-direction: column;
 }
 
-#skills-animation:hover .animated-skill-html-css {
+#skills-animation:hover .animated-skill {
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
     border-radius:30px;
@@ -239,20 +239,22 @@ button.mdl-button--fab {
     -moz-transform: rotate(720deg);
     -o-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
-    transform: rotate(720deg);    margin-left:420px;
+    transform: rotate(720deg);
+    margin-left:420px;
     background-color:#fff;
 }
 
 .animated-skill {
     width: 200px;
     border-radius: 23px;
+    text-align: center;
 }
 
 #skills-animation .animated-skill img {
     width: 200px;
 }
 
-#skill1 {
+#animated-skill-html-css {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -260,6 +262,12 @@ button.mdl-button--fab {
   border: 1px #f00 solid;
 }
 
-.animated-skill-html-css {
-    text-align: center;
+#animated-skill-js {
+  -webkit-transition: all 4s ease;
+  -moz-transition: all 4s ease;
+  -o-transition: all 4s ease;
+  transition: all 4s ease;
+  border:1px #f00 solid;
 }
+
+
