@@ -244,13 +244,13 @@ button.mdl-button--fab {
 }
 
 .animated-skill {
-    width: 200px;
+    width: 100px;
     border-radius: 23px;
     text-align: center;
 }
 
 #skills-animation .animated-skill img {
-    width: 200px;
+    width: 100px;
 }
 
 #animated-skill-html-css {
