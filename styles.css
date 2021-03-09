@@ -269,4 +269,52 @@ button.mdl-button--fab {
   border:1px #f00 solid;
 }
 
+#animated-skill-sass {
+    -webkit-transition: all 4s ease-in;
+    -moz-transition: all 4s ease-in;
+    -o-transition: all 4s ease-in;
+    transition: all 4s ease-in;
+    border:1px #0f0 solid;
+}
+
+#animated-skill-vue {
+    -webkit-transition: all 4s ease-out;
+    -moz-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    transition: all 4s ease-out;
+    border:1px #00f solid;
+}
+
+#animated-skill-psql {
+    -webkit-transition: all 4s linear;
+    -moz-transition: all 4s linear;
+    -o-transition: all 4s linear;
+    transition: all 4s linear;
+    border:1px #f0f solid;
+}
+
+#animated-skill-py-django {
+    -webkit-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+    -moz-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+    -o-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+    transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+    border:1px #0ff solid;
+}
+
+#animated-skill-node {
+    -webkit-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    -moz-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    -o-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    border:1px #000 dotted;
+}
+
+#animated-skill-sql {
+    -webkit-transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    -moz-transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    -o-transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    border:1px #000 dotted;
+}
+
 
