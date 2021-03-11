@@ -261,6 +261,10 @@ button.mdl-button--fab {
   width: 100px;
 }
 
+#skills-animation:hover #animated-skill-flip-card > p {
+  display: none;
+}
+
 #animated-skill-flip-card {
   z-index: 35;
   -webkit-transition: all 1s ease-in-out;
