@@ -261,6 +261,214 @@ button.mdl-button--fab {
   width: 100px;
 }
 
+#animated-skill-flip-card {
+  z-index: 35;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-html-css {
+  z-index: 34;
+  -webkit-transition-property: top, left;
+  -moz-transition-property: top, left;
+  -o-transition-property: top, left;
+  -ms-transition-property: top, left;
+  transition-property: top, left;
+  -webkit-transition-duration: 1s, 1s;
+  -moz-transition-duration: 1s, 1s;
+  -o-transition-duration: 1s, 1s;
+  -ms-transition-duration: 1s, 1s;
+  transition-duration: 1s, 1s;
+  -webkit-transition-delay: 0s, 1s;
+  -moz-transition-delay: 0s, 1s;
+  -o-transition-delay: 0s, 1s;
+  -ms-transition-delay: 0s, 1s;
+  transition-delay: 0s, 1s;
+}
+
+#animated-skill-js {
+  z-index: 33;
+  -webkit-transition-property: top, left, border-radius, background-color;
+  -moz-transition-property: top, left, border-radius, background-color;
+  -o-transition-property: top, left, border-radius, background-color;
+  -ms-transition-property: top, left, border-radius, background-color;
+  transition-property: top, left, border-radius, background-color;
+  -webkit-transition-duration: 2s, 1s, 0.5s, 0.5s;
+  -moz-transition-duration: 2s, 1s, 0.5s, 0.5s;
+  -o-transition-duration: 2s, 1s, 0.5s, 0.5s;
+  -ms-transition-duration: 2s, 1s, 0.5s, 0.5s;
+  transition-duration: 2s, 1s, 0.5s, 0.5s;
+  -webkit-transition-delay: 0s, 0.5s, 1s, 1.5s;
+  -moz-transition-delay: 0s, 0.5s, 1s, 1.5s;
+  -o-transition-delay: 0s, 0.5s, 1s, 1.5s;
+  -ms-transition-delay: 0s, 0.5s, 1s, 1.5s;
+  transition-delay: 0s, 0.5s, 1s, 1.5s;
+}
+
+#animated-skill-sass {
+  z-index: 32;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-vue {
+  z-index: 31;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-psql {
+  z-index: 30;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-py-django {
+  z-index: 29;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-node {
+  z-index: 28;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#animated-skill-sql {
+  z-index: 27;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; 
+}
+
+#animated-skill-mongo {
+  z-index: 26;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;  
+}
+
+#animated-skill-rails {
+  z-index: 25;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; 
+}
+
+#animated-skill-git {
+  z-index: 24;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; 
+}
+
+#animated-skill-graphql {
+  z-index: 23;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; 
+}
+
+#animated-skill-react {
+  z-index: 22;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;  
+}
+
+#skills-animation:hover #animated-skill-flip-card, #skills-animation.hover_effect #animated-skill-flip-card {
+  top: 0px;
+  left: 0px;
+}
+
+#skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
+  top: 320px;
+  left: 450px;
+}
+
+#skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
+  top: 0px;
+  left: 450px;
+}
+
+#skills-animation:hover #animated-skill-sass, #skills-animation.hover_effect #animated-skill-sass {
+  top: 0px;
+  left: 150px;
+}
+
+#skills-animation:hover #animated-skill-vue, #skills-animation.hover_effect #animated-skill-vue {
+  top: 0px;
+  left: 300px;
+}
+
+#skills-animation:hover #animated-skill-psql, #skills-animation.hover_effect #animated-skill-psql {
+  top: 0px;
+  left: 600px;
+}
+
+#skills-animation:hover #animated-skill-py-django, #skills-animation.hover_effect #animated-skill-py-django {
+  top: 160px;
+  left: 150px;
+}
+
+#skills-animation:hover #animated-skill-node, #skills-animation.hover_effect #animated-skill-node {
+  top: 160px;
+  left: 300px;
+}
+
+#skills-animation:hover #animated-skill-sql, #skills-animation.hover_effect #animated-skill-sql {
+  top: 160px;
+  left: 450px;
+}
+
+#skills-animation:hover #animated-skill-mongo, #skills-animation.hover_effect #animated-skill-mongo {
+  top: 160px;
+  left: 600px;
+}
+
+#skills-animation:hover #animated-skill-rails, #skills-animation.hover_effect #animated-skill-rails {
+  top: 320px;
+  left: 0px;
+}
+
+#skills-animation:hover #animated-skill-git, #skills-animation.hover_effect #animated-skill-git {
+  top: 320px;
+  left: 150px;
+}
+
+#skills-animation:hover #animated-skill-graphql, #skills-animation.hover_effect #animated-skill-graphql {
+  top: 320px;
+  left: 300px;
+}
+
+#skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
+top: 320px;
+left: 600px;
+}
+
+
+
+
+/* #skills-animation:hover .animated-skill {
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
     border-radius:30px;
@@ -272,18 +480,9 @@ button.mdl-button--fab {
     margin-left:420px;
     background-color:#fff;
 }
+*/
 
-.animated-skill {
-    width: 100px;
-    border-radius: 23px;
-    text-align: center;
-}
-
-#skills-animation .animated-skill img {
-    width: 100px;
-}
-
-#animated-skill-html-css {
+/* #animated-skill-html-css {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -345,6 +544,6 @@ button.mdl-button--fab {
     -o-transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
     transition: all 2s cubic-bezier(1.000, -0.530, 0.405, 1.425);
     border:1px #000 dotted;
-}
+} */
 
 
