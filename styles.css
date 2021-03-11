@@ -465,8 +465,16 @@ button.mdl-button--fab {
 }
 
 #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
-top: 320px;
-left: 600px;
+  top: 320px;
+  left: 600px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  -webkit-transform: rotate(720deg);
+  -moz-transform: rotate(720deg);
+  -o-transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  transform: rotate(720deg);
 }
 
 
