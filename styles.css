@@ -230,7 +230,37 @@ button.mdl-button--fab {
     flex-direction: column;
 }
 
-#skills-animation:hover .animated-skill {
+#skills-animation {
+  position:relative;
+  width:680px;
+  height:460px;
+  margin:0 auto 10px;
+  border:1px #aaa solid;
+  padding:10px;
+}
+
+#skills-animation .animated-skill {
+  width:100px;
+  height:100px;
+  position:absolute;
+  top:160px;
+  left:0px;
+  
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  text-align:center;
+}
+.animated-skill {
+  width: 100px;
+  border-radius: 23px;
+  text-align: center;
+}
+
+#skills-animation .animated-skill img {
+  width: 100px;
+}
+
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
     border-radius:30px;
