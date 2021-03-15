@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+#home, #portfolio, #contact {
+  background-color: rgb(178,255,89);
+}
+
 .container {
     display: flex;
     justify-content: center;
