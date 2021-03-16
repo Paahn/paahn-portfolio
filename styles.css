@@ -1,3 +1,7 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 #home, #about-introduction, #about-education, #contact {
     display: flex;
     justify-content: center;
