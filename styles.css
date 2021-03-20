@@ -11,6 +11,7 @@ body {
 
 #home, #portfolio, #contact {
   background-color: rgb(178,255,89);
+  background-image: linear-gradient(to bottom, transparent,#57e619);
 }
 
 .container {
