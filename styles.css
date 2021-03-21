@@ -9,7 +9,7 @@ body {
     /* height: 100vh; */
 }
 
-#home, #portfolio, #contact {
+#home, #about-education, #skills {
   background-color: rgb(178,255,89);
   background-image: linear-gradient(to bottom, transparent,#57e619);
 }
@@ -29,7 +29,11 @@ body {
 }
 
 .container .arrow-button {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.container .arrow-button span {
+  color: #006600;
 }
 
 button.mdl-button--fab {
@@ -129,11 +133,11 @@ button.mdl-button--fab {
     padding: 5px;
     margin: 10px;
     border: 1px solid grey;
-    background-color: #00a0cc;
+    background-color: #00c6fb;
 }
 
 .hobby-icon:hover {
-    background-color: #00c6fb;
+    background-color: #4dd8ff;
 }
 
 .hobbies-icons {
