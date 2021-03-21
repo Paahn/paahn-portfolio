@@ -157,7 +157,7 @@ button.mdl-button--fab {
 .section-title {
     display: flex;
     justify-content: center;
-    background: rgb(178,255,89);
+    background: transparent;
     margin: 15px;
 }
 
