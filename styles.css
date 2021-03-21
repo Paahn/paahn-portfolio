@@ -486,9 +486,18 @@ button.mdl-button--fab {
   transform: rotate(720deg);
 }
 
+/* contact section */
 
+#contact {
+  height: 50vh;
 }
 
+.form-wrap form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.message-input {
+  background-color: rgb(178,255,89);}
 
