@@ -129,11 +129,11 @@ button.mdl-button--fab {
     padding: 5px;
     margin: 10px;
     border: 1px solid grey;
-    background-color: #52c78f;
+    background-color: #00a0cc;
 }
 
 .hobby-icon:hover {
-    background-color: #68f1ae;
+    background-color: #00c6fb;
 }
 
 .hobbies-icons {
