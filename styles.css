@@ -12,6 +12,7 @@ body {
 #home, #about-education, #skills {
   background-color: rgb(178,255,89);
   background-image: linear-gradient(to bottom, transparent,#57e619);
+  padding: 20px 0px;
 }
 
 .container {
