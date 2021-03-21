@@ -427,7 +427,7 @@ button.mdl-button--fab {
   left: 450px;
 }
 
-#skills-animation:hover #animated-skill-sass, #skills-animation.hover_effect #animated-skill-sass {
+#skills-animation:hover #animated-skill-git, #skills-animation.hover_effect #animated-skill-git {
   top: 0px;
   left: 150px;
 }
@@ -447,7 +447,7 @@ button.mdl-button--fab {
   left: 150px;
 }
 
-#skills-animation:hover #animated-skill-node, #skills-animation.hover_effect #animated-skill-node {
+#skills-animation:hover #animated-skill-rails, #skills-animation.hover_effect #animated-skill-rails {
   top: 160px;
   left: 300px;
 }
@@ -462,12 +462,12 @@ button.mdl-button--fab {
   left: 600px;
 }
 
-#skills-animation:hover #animated-skill-rails, #skills-animation.hover_effect #animated-skill-rails {
+#skills-animation:hover #animated-skill-node, #skills-animation.hover_effect #animated-skill-node {
   top: 320px;
   left: 0px;
 }
 
-#skills-animation:hover #animated-skill-git, #skills-animation.hover_effect #animated-skill-git {
+#skills-animation:hover #animated-skill-sass, #skills-animation.hover_effect #animated-skill-sass {
   top: 320px;
   left: 150px;
 }
