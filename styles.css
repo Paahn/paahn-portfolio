@@ -510,6 +510,10 @@ button.mdl-button--fab {
 
 /* Footer section */
 
+.social-media-title {
+  color: #ffffff;
+}
+
 ul {
   list-style: none;
 }
