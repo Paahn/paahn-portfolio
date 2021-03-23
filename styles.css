@@ -59,8 +59,11 @@ button.mdl-button--fab {
 }
 
 .about-container-img > img {
-    border-radius: 50%;
-    height: 200px;
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  object-position: top;
 }
 
 .about-container-text {
