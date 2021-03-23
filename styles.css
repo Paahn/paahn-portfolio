@@ -79,12 +79,9 @@ button.mdl-button--fab {
     margin: 10px;
 }
 
-.about-container-education > .uop-degree {
+.about-container-education > .education-card, .certificate-card {
     background-color: #ffffff;
-}
-
-.about-container-education > .lhl-diploma {
-    background-color: #ffffff;
+    border: 1px solid #006600;
 }
 
 .about-container-education {
@@ -124,16 +121,9 @@ button.mdl-button--fab {
     margin-top: 20px;
 }
 
-.about-container-certification .drf-certificate, .about-container-certification .python-masterclass-certificate {
-    background-color: #ffffff;
-}
-
-.about-container-certification .academind-css-certificate {
-    background-color: #ffffff;
-}
-
 .mdl-card__supporting-text a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #006600;;
 }
 
 .hobbies {
