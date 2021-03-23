@@ -17,6 +17,10 @@ body, h1, h2, h3, h4, h5, h6 {
   padding: 20px 0px;
 }
 
+.page-content {
+  display: flex;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -161,6 +165,10 @@ button.mdl-button--fab {
     flex-direction: column;
 }
 
+#portfolio .page-content {
+  flex-direction: column;
+}
+
 .section-title {
     display: flex;
     justify-content: center;
@@ -242,8 +250,8 @@ button.mdl-button--fab {
 
 /* skills section */
 
-#skills {
-    flex-direction: column;
+#skills .page-content {
+  flex-direction: column;
 }
 
 #skills-animation {
