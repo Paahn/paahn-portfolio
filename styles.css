@@ -105,6 +105,13 @@ button.mdl-button--fab {
 
 .education-media {
     display: flex;
+    border: 1px black solid;
+}
+
+.education-img {
+  display: flex;
+  align-self: center;
+  margin-left: 5px;
 }
 
 .about-container-certification {
