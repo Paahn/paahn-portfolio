@@ -76,11 +76,11 @@ button.mdl-button--fab {
 }
 
 .about-container-education > .uop-degree {
-    background-color: crimson;
+    background-color: #ffffff;
 }
 
 .about-container-education > .lhl-diploma {
-    background-color: green;
+    background-color: #ffffff;
 }
 
 .about-container-education {
@@ -114,11 +114,11 @@ button.mdl-button--fab {
 }
 
 .about-container-certification .drf-certificate, .about-container-certification .python-masterclass-certificate {
-    background-color: steelblue;
+    background-color: #ffffff;
 }
 
 .about-container-certification .academind-css-certificate {
-    background-color: blueviolet;
+    background-color: #ffffff;
 }
 
 .mdl-card__supporting-text a {
