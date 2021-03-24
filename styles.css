@@ -1,5 +1,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+* {
+  scroll-behavior: smooth;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif !important;
 }
