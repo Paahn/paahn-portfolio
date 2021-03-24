@@ -183,6 +183,11 @@ button.mdl-button--fab {
 .project {
     height: auto;
     position: relative;
+    border: 2px solid #006600;
+}
+
+.space {
+  height: 20px;
 }
 
 .project img {
@@ -200,7 +205,7 @@ button.mdl-button--fab {
     transition: 0.5s ease;
     opacity: 0;
     bottom: 0;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-size: 20px;
     padding: 20px 0px;
     text-align: center;
@@ -235,7 +240,7 @@ button.mdl-button--fab {
   .project .mdl-cell {
     width: auto;
     margin: 0;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
   }  
 }
 
