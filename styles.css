@@ -240,6 +240,16 @@ button.mdl-button--fab {
 .project:hover .overlay{
     opacity: 1;
 }
+
+.tech-stack {
+  display: flex;
+}
+
+.tech-stack .overlay-item button.tech-used {
+  background-color: #ffffff;
+  color: #006600;
+}
+
 @media (min-width: 840px){
   .project .mdl-cell {
     width: auto;
