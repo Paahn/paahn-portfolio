@@ -639,3 +639,17 @@ ul {
 .footer-copyright {
   text-align: center;
 }
+
+.return-button {
+  padding: 1.5rem;
+  right: 0;
+}
+
+.return-button .return-to-top {
+  height: 70px;
+  width: fit-content;
+}
+.return-button .return-to-top a {
+  color: #006600;
+  text-decoration: none;
+}
