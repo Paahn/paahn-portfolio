@@ -7,7 +7,7 @@ const sections = [
   selectElementByClass('home'),
   selectElementByClass('about'),
   selectElementByClass('about2'),
-  selectElementByClass('portfolio'),
+  selectElementByClass('projects'),
   selectElementByClass('skills'),
   selectElementByClass('contact'),
 ];
@@ -16,7 +16,7 @@ const navItems = {
   home: selectElementByClass('homeNav'),
   about: selectElementByClass('aboutNav'),
   about2: selectElementByClass('aboutNav'),
-  portfolio: selectElementByClass('portfolioNav'),
+  projects: selectElementByClass('projectsNav'),
   skills: selectElementByClass('skillsNav'),
   contact: selectElementByClass('contactNav'),
 };
@@ -25,7 +25,7 @@ const navItems = {
 const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.2,
+    threshold: 0.7,
   };
   
 function observerCallback(entries, observer) {

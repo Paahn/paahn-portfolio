@@ -170,7 +170,7 @@ button.mdl-button--fab {
 }
 
 /* projects section */
-#portfolio {
+#projects {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -178,7 +178,7 @@ button.mdl-button--fab {
     /* height: 300vh; */
 }
 
-#portfolio .page-content {
+#projects .page-content {
   flex-direction: column;
 }
 
