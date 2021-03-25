@@ -4,18 +4,22 @@
   scroll-behavior: smooth;
 }
 
+.active {
+  border: 2px solid #fff;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif !important;
 }
 
-#home, #about-introduction, #about-education, #contact {
+#home, #about, #about2, #contact {
     display: flex;
     justify-content: center;
     width: 100%;
     /* height: 100vh; */
 }
 
-#home, #about-education, #skills {
+#home, #about2, #skills {
   background-color: rgb(178,255,89);
   background-image: linear-gradient(to bottom, transparent,#57e619);
   padding: 20px 0px;
@@ -171,6 +175,7 @@ button.mdl-button--fab {
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    /* height: 300vh; */
 }
 
 #portfolio .page-content {
