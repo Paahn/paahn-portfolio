@@ -5,7 +5,10 @@
 }
 
 .active {
-  border: 2px solid #fff;
+  /* border-bottom: 2px solid #fff; */
+  background-color: #006600;
+  border-radius: 50px;
+  opacity: 0.6 !important;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
