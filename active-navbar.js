@@ -7,7 +7,10 @@ const sections = [
   selectElementByClass('home'),
   selectElementByClass('about'),
   selectElementByClass('about2'),
-  selectElementByClass('projects'),
+  selectElementByClass('project1'),
+  selectElementByClass('project2'),
+  selectElementByClass('project3'),
+  selectElementByClass('project4'),
   selectElementByClass('skills'),
   selectElementByClass('contact'),
 ];
@@ -16,7 +19,10 @@ const navItems = {
   home: selectElementByClass('homeNav'),
   about: selectElementByClass('aboutNav'),
   about2: selectElementByClass('aboutNav'),
-  projects: selectElementByClass('projectsNav'),
+  project1: selectElementByClass('projectsNav'),
+  project2: selectElementByClass('projectsNav'),
+  project3: selectElementByClass('projectsNav'),
+  project4: selectElementByClass('projectsNav'),
   skills: selectElementByClass('skillsNav'),
   contact: selectElementByClass('contactNav'),
 };
