@@ -706,4 +706,12 @@ ul {
   #about2 .container {
     align-items: center;
   }
+
+  .container .about-container-top {
+    flex-direction: column;
+  }
+
+  #about p.container-text {
+    margin: 5px 50px;
+  }
 }
