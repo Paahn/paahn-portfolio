@@ -714,4 +714,44 @@ ul {
   #about p.container-text {
     margin: 5px 50px;
   }
+
+  .project {
+    width: 85%;
+    margin: 0 0 0 5%;
+  }
+
+  .project img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .overlay {
+    padding: 2px 0px;
+  }
+  .overlay-item {
+      padding: 3px;
+  }
+
+  .overlay-item p {
+    font-family: 10px;
+    margin: 0 0 5px;
+  }
+
+  .overlay-item .mdl-button {
+    font-size: 8px;
+    min-width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .overlay-link a {
+    font-size: 15px;
+  }
+
+  .mobile-overlay-item {
+    display: contents;
+  }
 }
