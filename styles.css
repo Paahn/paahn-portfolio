@@ -692,3 +692,10 @@ ul {
   color: #006600;
   text-decoration: none;
 }
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  nav.hide-on-mobile {
+    display: none;
+  }
+}
