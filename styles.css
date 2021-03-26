@@ -698,4 +698,12 @@ ul {
   nav.hide-on-mobile {
     display: none;
   }
+
+  .about-container-education, .about-container-certification {
+    flex-direction: column;
+  }
+
+  #about2 .container {
+    align-items: center;
+  }
 }
