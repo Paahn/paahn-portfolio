@@ -724,6 +724,194 @@ ul {
     height: auto;
     width: 100%;
   }
+
+  #skills-animation {
+    margin: 0 15% 10px;
+  }
+
+  #skills-animation .animated-skill img {
+    width: 50px;
+  }
+
+  #skills-animation:hover #animated-skill-flip-card, #skills-animation.hover_effect #animated-skill-flip-card {
+    top: 50px;
+    left: 0px;
+  }
+  
+  #skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
+    top: 270px;
+    left: 300px;
+  }
+  
+  #skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
+    top: 50px;
+    left: 300px;
+  }
+  
+  #skills-animation:hover #animated-skill-git, #skills-animation.hover_effect #animated-skill-git {
+    top: 50px;
+    left: 100px;
+  }
+  
+  #skills-animation:hover #animated-skill-vue, #skills-animation.hover_effect #animated-skill-vue {
+    top: 50px;
+    left: 200px;
+  }
+  
+  #skills-animation:hover #animated-skill-psql, #skills-animation.hover_effect #animated-skill-psql {
+    top: 50px;
+    left: 400px;
+  }
+  
+  #skills-animation:hover #animated-skill-py-django, #skills-animation.hover_effect #animated-skill-py-django {
+    top: 160px;
+    left: 100px;
+  }
+  
+  #skills-animation:hover #animated-skill-rails, #skills-animation.hover_effect #animated-skill-rails {
+    top: 160px;
+    left: 200px;
+  }
+  
+  #skills-animation:hover #animated-skill-sql, #skills-animation.hover_effect #animated-skill-sql {
+    top: 160px;
+    left: 300px;
+  }
+  
+  #skills-animation:hover #animated-skill-mongo, #skills-animation.hover_effect #animated-skill-mongo {
+    top: 160px;
+    left: 400px;
+  }
+  
+  #skills-animation:hover #animated-skill-node, #skills-animation.hover_effect #animated-skill-node {
+    top: 270px;
+    left: 0px;
+  }
+  
+  #skills-animation:hover #animated-skill-sass, #skills-animation.hover_effect #animated-skill-sass {
+    top: 270px;
+    left: 100px;
+  }
+  
+  #skills-animation:hover #animated-skill-graphql, #skills-animation.hover_effect #animated-skill-graphql {
+    top: 270px;
+    left: 200px;
+  }
+  
+  #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
+    top: 270px;
+    left: 400px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #skills-animation {
+    margin: 0 10% 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #skills-animation {
+    margin: 0 auto 10px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+
+  #skills-animation .animated-skill {
+    height: 50px;
+    width: 50px;
+  }
+
+  #skills-animation .animated-skill img {
+    width: 30px;
+  }
+
+  #skills-animation:hover #animated-skill-flip-card, #skills-animation.hover_effect #animated-skill-flip-card {
+    top: 90px;
+    left: 0px;
+  }
+  
+  #skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
+    top: 230px;
+    left: 180px;
+  }
+  
+  #skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
+    top: 90px;
+    left: 180px;
+  }
+  
+  #skills-animation:hover #animated-skill-git, #skills-animation.hover_effect #animated-skill-git {
+    top: 90px;
+    left: 60px;
+  }
+  
+  #skills-animation:hover #animated-skill-vue, #skills-animation.hover_effect #animated-skill-vue {
+    top: 90px;
+    left: 120px;
+  }
+  
+  #skills-animation:hover #animated-skill-psql, #skills-animation.hover_effect #animated-skill-psql {
+    top: 90px;
+    left: 240px;
+  }
+  
+  #skills-animation:hover #animated-skill-py-django, #skills-animation.hover_effect #animated-skill-py-django {
+    top: 160px;
+    left: 60px;
+  }
+  
+  #skills-animation:hover #animated-skill-rails, #skills-animation.hover_effect #animated-skill-rails {
+    top: 160px;
+    left: 120px;
+  }
+  
+  #skills-animation:hover #animated-skill-sql, #skills-animation.hover_effect #animated-skill-sql {
+    top: 160px;
+    left: 180px;
+  }
+  
+  #skills-animation:hover #animated-skill-mongo, #skills-animation.hover_effect #animated-skill-mongo {
+    top: 160px;
+    left: 240px;
+  }
+  
+  #skills-animation:hover #animated-skill-node, #skills-animation.hover_effect #animated-skill-node {
+    top: 230px;
+    left: 0px;
+  }
+  
+  #skills-animation:hover #animated-skill-sass, #skills-animation.hover_effect #animated-skill-sass {
+    top: 230px;
+    left: 60px;
+  }
+  
+  #skills-animation:hover #animated-skill-graphql, #skills-animation.hover_effect #animated-skill-graphql {
+    top: 230px;
+    left: 120px;
+  }
+  
+  #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
+    top: 230px;
+    left: 240px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
 }
 
 @media only screen and (max-width: 600px) {
