@@ -916,6 +916,10 @@ ul {
 
 @media only screen and (max-width: 600px) {
 
+  .projects-skills-contact-arrow-button {
+    padding: 0;
+  }
+
   .overlay {
     padding: 2px 0px;
   }
