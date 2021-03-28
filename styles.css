@@ -23,8 +23,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #home, #about2, #skills {
-  background-color: #99ffd6;
-  background-image: linear-gradient(to bottom, transparent,#57e619);
+  background-color: #ccffeb;
+  background-image: linear-gradient(to bottom, transparent,#66ff33);
   padding: 20px 0px;
 }
 
