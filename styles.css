@@ -944,6 +944,10 @@ ul {
   }
 
   #contact {
-    height: unset;
+    height: auto;
+  }
+
+  .mdl-mini-footer .footer-social-icons {
+    width: auto;
   }
 }
