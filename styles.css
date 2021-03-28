@@ -942,4 +942,8 @@ ul {
   .mobile-overlay-item {
     display: contents;
   }
+
+  #contact {
+    height: unset;
+  }
 }
