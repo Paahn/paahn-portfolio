@@ -4,6 +4,11 @@
   scroll-behavior: smooth;
 }
 
+/* Navbar */
+.mdl-layout__header .mdl-layout__drawer-button {
+ display: none;
+}
+
 .active {
   /* border-bottom: 2px solid #fff; */
   background-color: #006600;
@@ -699,9 +704,15 @@ ul {
     display: none;
   }
 
+  .mdl-layout__header .mdl-layout__drawer-button {
+    display: block;
+    left: auto;
+    right: 0;
+   }
+
   .mdl-layout .mobile-header {
     flex-direction: row !important;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   .about-container-education, .about-container-certification {
@@ -962,5 +973,12 @@ ul {
 
   .mdl-mini-footer .footer-social-icons {
     width: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mdl-layout__header .mdl-layout__header-row {
+    height: 56px;
+    padding: 0 16px 0 0px;
   }
 }
