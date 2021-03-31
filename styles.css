@@ -4,18 +4,6 @@
   scroll-behavior: smooth;
 }
 
-/* Navbar */
-.mdl-layout__header .mdl-layout__drawer-button {
- display: none;
-}
-
-.mdl-layout .mdl-layout__drawer {
-  left: auto;
-  right: 0;
-  border-left: 1px solid #e0e0e0;
-  transform: translateX(350px);
-}
-
 .active {
   background-color: #006600;
   border-radius: 50px;
@@ -85,9 +73,23 @@ button.mdl-button--fab {
     background: rgba(66, 34, 66, 0.2);
 }
 
+/* Navbar */
+.mdl-layout__header .mdl-layout__drawer-button {
+ display: none;
+}
+
+.mdl-layout .mdl-layout__drawer {
+  left: auto;
+  right: 0;
+  border-left: 1px solid #e0e0e0;
+  transform: translateX(350px);
+}
+
 .logo > img {
   object-fit: contain;
 }
+
+/* about section */
 
 .about-container-top {
     display: flex;
