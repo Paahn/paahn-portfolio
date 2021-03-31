@@ -490,12 +490,12 @@ button.mdl-button--fab {
 }
 
 #skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
-  top: 320px;
+  top: 0px;
   left: 450px;
 }
 
 #skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
-  top: 0px;
+  top: 320px;
   left: 450px;
 }
 
@@ -760,12 +760,12 @@ ul {
   }
   
   #skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
-    top: 270px;
+    top: 50px;
     left: 300px;
   }
   
   #skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
-    top: 50px;
+    top: 270px;
     left: 300px;
   }
   
@@ -862,12 +862,12 @@ ul {
   }
   
   #skills-animation:hover #animated-skill-html-css, #skills-animation.hover_effect #animated-skill-html-css {
-    top: 230px;
+    top: 90px;
     left: 180px;
   }
   
   #skills-animation:hover #animated-skill-js, #skills-animation.hover_effect #animated-skill-js {
-    top: 90px;
+    top: 230px;
     left: 180px;
   }
   
