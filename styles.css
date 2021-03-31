@@ -317,24 +317,24 @@ button.mdl-button--fab {
 }
 
 #skills-animation {
-  position:relative;
-  width:680px;
-  height:439px;
-  margin:0 auto 10px;
-  padding:10px;
+  position: relative;
+  width: 680px;
+  height: 439px;
+  margin: 0 auto 10px;
+  padding: 10px;
 }
 
 #skills-animation .animated-skill {
-  width:100px;
-  height:100px;
-  position:absolute;
-  top:160px;
-  left:0px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 160px;
+  left: 0px;
   
-  -webkit-border-radius:50px;
-  -moz-border-radius:50px;
-  border-radius:50px;
-  text-align:center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
 }
 .animated-skill {
   width: 100px;
@@ -552,9 +552,9 @@ button.mdl-button--fab {
 #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
   top: 320px;
   left: 600px;
-  -webkit-border-radius:30px;
-  -moz-border-radius:30px;
-  border-radius:30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   -webkit-transform: rotate(720deg);
   -moz-transform: rotate(720deg);
   -o-transform: rotate(720deg);
@@ -613,11 +613,11 @@ ul {
 }
 
 .fa-stack-overflow {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
   background-color: #322f30;
 }
@@ -625,11 +625,11 @@ ul {
   background-color: #3d5b99;
 }
 .fa-twitter {
-  padding:10px 12px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  padding: 10px 12px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
   background-color: #322f30;
 }
@@ -637,11 +637,11 @@ ul {
   background-color: #00aced;
 }
 .fa-reddit {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
@@ -649,11 +649,11 @@ ul {
     background-color: #eb8231;
 }
 .fa-youtube {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
   background-color: #322f30;
 }
@@ -661,11 +661,11 @@ ul {
   background-color: #e64a41;
 }
 .fa-linkedin {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
   background-color: #322f30;
 }
@@ -673,11 +673,11 @@ ul {
   background-color: #0073a4;
 }
 .fa-github {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
   transition: .5s;
   background-color: #322f30;
 }
@@ -822,9 +822,9 @@ ul {
   #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
     top: 270px;
     left: 400px;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    border-radius:30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
     -webkit-transform: rotate(720deg);
     -moz-transform: rotate(720deg);
     -o-transform: rotate(720deg);
@@ -924,9 +924,9 @@ ul {
   #skills-animation:hover #animated-skill-react, #skills-animation.hover_effect #animated-skill-react {
     top: 230px;
     left: 240px;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    border-radius:30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
     -webkit-transform: rotate(720deg);
     -moz-transform: rotate(720deg);
     -o-transform: rotate(720deg);
