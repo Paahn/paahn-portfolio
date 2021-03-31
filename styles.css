@@ -699,6 +699,11 @@ ul {
     display: none;
   }
 
+  .mdl-layout .mobile-header {
+    flex-direction: row !important;
+    justify-content: flex-end;
+  }
+
   .about-container-education, .about-container-certification {
     flex-direction: column;
   }
