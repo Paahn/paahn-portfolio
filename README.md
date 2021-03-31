@@ -1,5 +1,5 @@
 ## My portfolio website
-Created with pure HTML, CSS and Javascript and Material Design Lite. Published on Github pages.
+Created with pure HTML, CSS and Javascript and Material Design Lite. Fully responsive. Published on Github pages.
 
 [Live project](https://paahn.github.io/paahn-portfolio/)
 
