@@ -981,4 +981,10 @@ ul {
     height: 56px;
     padding: 0 16px 0 0px;
   }
+  .mdl-layout .mdl-layout__drawer {
+    left: auto;
+    right: 0;
+    border-left: 1px solid #e0e0e0;
+    transform: translateX(350px);
+  }
 }
