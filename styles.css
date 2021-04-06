@@ -704,7 +704,7 @@ ul {
 }
 
 /* Responsive design */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 790px) {
   nav.hide-on-mobile {
     display: none;
   }
