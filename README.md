@@ -2,8 +2,8 @@
 Created with pure HTML, CSS and Javascript and Material Design Lite. Fully responsive. Published on Github pages.
 
 Google Lighthouse scores: 
-Mobile ![Mobile](https://raw.githubusercontent.com/Paahn/paahn-portfolio/master/assets/mobile-lighthouse.png)
-Desktop ![Desktop](https://raw.githubusercontent.com/Paahn/paahn-portfolio/master/assets/desktop-lighthouse.png)
+Mobile ![Mobile](https://raw.githubusercontent.com/Paahn/paahn-portfolio/master/assets/mobile-lighthouse.PNG)
+Desktop ![Desktop](https://raw.githubusercontent.com/Paahn/paahn-portfolio/master/assets/desktop-lighthouse.PNG)
 
 [Live project](https://paahn.github.io/paahn-portfolio/)
 
