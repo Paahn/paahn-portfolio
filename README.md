@@ -8,4 +8,4 @@ Google Lighthouse scores for mobile and desktop:
 
 [Live project](https://paahn.github.io/paahn-portfolio/)
 
-![Preview](https://raw.githubusercontent.com/Paahn/paahn-portfolio/master/assets/paahn-portfolio-cover.png)
+![Preview](https://user-images.githubusercontent.com/45132887/145665137-3001f471-f2b6-4199-aed7-b533e4fc20e0.PNG)
