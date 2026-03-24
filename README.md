@@ -1,4 +1,5 @@
 ## My portfolio website
+Currently under maintenance 
 Created with pure HTML, CSS and Javascript and Material Design Lite. Fully responsive. Published on Github pages.
 
 Google Lighthouse scores for mobile and desktop: 
