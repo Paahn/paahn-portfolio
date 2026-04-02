@@ -165,6 +165,15 @@ button.mdl-button--fab {
   color: #006600;;
 }
 
+.grid { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: 1 1 50%;
+}
+
 .hobbies {
     padding: 15px;
     margin: 15px;
@@ -192,7 +201,7 @@ button.mdl-button--fab {
 
 .hobbies-icons {
     justify-content: space-evenly;
-    width: 70%;
+    width: 100%;
 }
 
 .hobbies-text > #hobbies {
@@ -289,7 +298,7 @@ button.mdl-button--fab {
 }
 
 @media (min-width: 840px){
-  .project .mdl-cell {
+  .project .grid-item {
     width: auto;
     margin: 0;
     /* margin-bottom: 8px; */
@@ -297,7 +306,7 @@ button.mdl-button--fab {
 }
 
 @media (min-width: 840px){
-    .mdl-grid.project {
+    .grid.project {
         padding: 0;
     }
 }
