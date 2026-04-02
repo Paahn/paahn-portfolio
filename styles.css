@@ -599,8 +599,20 @@ header {
   align-items: center;
 }
 
-.message-input {
-  background-color: rgb(178,255,89);
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 50%;
+}
+
+input {
+  display: flex;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 textarea {
