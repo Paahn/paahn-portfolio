@@ -9,6 +9,10 @@
   opacity: 0.6 !important;
 }
 
+body {
+  margin: 0;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif !important;
 }
@@ -73,6 +77,19 @@ button.mdl-button--fab {
 }
 
 /* Navbar */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 64px;
+  background-color: #4d9475;
+}
+
+.hidden {
+  display: none;
+}
+
 .mdl-layout__header .mdl-layout__drawer-button {
  display: none;
 }
