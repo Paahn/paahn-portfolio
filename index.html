@@ -1,595 +1,616 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Meet Panos Hatzinikolaou, a full stack web developer, explore his skills and projects, and contact him.">
-    <meta property="og:image" content="assets/paahn-logo.png">
+    <meta
+      name="description"
+      content="Meet Panos Hatzinikolaou, a full stack web developer, explore his skills and projects, and contact him."
+    />
+    <meta property="og:image" content="assets/paahn-logo.png" />
     <title>Panos Hatzinikolaou</title>
-    <link rel="shortcut icon" type="image/jpg" href="./assets/paahn-logo.png"/>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="layout">
-      <header class="header">
-        <div>
-          <!-- Title -->
-          <div><img src="./assets/paahn-logo.png" alt="logo" width="100" height="100"></div>
-          <div></div>
-          <!-- Navigation -->
-          <nav class="hide-on-mobile">
-            <a class="homeNav navItem" href="#home">Home</a>
-            <a class="aboutNav navItem" href="#about">About</a>
-            <a class="projectsNav navItem" href="#projects">Projects</a>
-            <a class="skillsNav navItem" href="#skills">Skills</a>
-            <a class="contactNav navItem" href="#contact">Contact</a>
-          </nav>
-        </div>
-      </header>
-      <button id="menu-toggle">☰</button>
-        <span class="logo"><img src="./assets/paahn-logo.png" alt="logo" width="140" height="140"></span>
-        <nav id="mobile-menu" class="hidden">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+    <link rel="icon" type="image/png" href="./assets/paahn-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#home" class="logo" aria-label="Home">
+          <img
+            src="./assets/paahn-logo.png"
+            alt="Panos logo"
+            width="52"
+            height="52"
+          />
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-link homeNav" href="#home">Home</a>
+          <a class="nav-link aboutNav" href="#about">About</a>
+          <a class="nav-link projectsNav" href="#projects">Projects</a>
+          <a class="nav-link skillsNav" href="#skills">Skills</a>
+          <a class="nav-link contactNav" href="#contact">Contact</a>
         </nav>
-      
-      <main>
-        <section id="home" class="home">
-          <div class="container page-content">
-            <h2 class="container-text">Panos Hatzinikolaou</h2>
-              <div class="divider">
-                <div class="divider-line"></div>
-                <div class="divider-icon">
-                  <span class="material-icons">
-                    emoji_people
-                  </span></div>
-                <div class="divider-line"></div>
-              </div>
-            <h3 class="container-text">Full Stack Web Developer</h3>
-            <p class="container-text"> HTML CSS Javascript React Angular</p>
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
-              <a href="#about">
-                <span class="material-icons down-arrow">
-                  arrow_downward
-                </span>
-              </a>  
-            </button>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span class="material-icons">menu</span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="drawer" aria-label="Mobile navigation" aria-hidden="true">
+      <button class="drawer-close" aria-label="Close menu">
+        <span class="material-icons">close</span>
+      </button>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="drawer-backdrop" aria-hidden="true"></div>
+
+    <main>
+      <!-- HOME -->
+      <section id="home" class="home section-full">
+        <div class="container center-col">
+          <h1>Panos Hatzinikolaou</h1>
+          <div class="divider">
+            <div class="divider-line"></div>
+            <span class="material-icons">emoji_people</span>
+            <div class="divider-line"></div>
           </div>
-        </section>
-        <section id="about" class="about">
-            <div class="container page-content">
-              <div class="about-container-top">
-                <div class="about-container-img">
-                  <img src="assets/profile-pic.jpg" srcset="assets/profile-pic.jpg-small.png 480w, assets/profile-pic.jpg 1080w" sizes="50vw" alt="Panos Hatzinikolaou" width="240" height="240">
-                </div>
-                <div class="about-container-text">
-                  <h2 class="container-text">Hello there!</h2>
-                  <p class="container-text">
-                    I'm Panos, a global nomad and full-stack developer currently enjoying beautiful British Columbia.<br>
-                    I love coding and the thrill of overcoming a new challenge in my work, which is why I became a web developer.<br>
-                  </p>
-                </div>
-              </div>
-              <div class="hobbies">
-                <div class="grid hobbies-icons">
-                  <span onmouseover="toggleClass(this)" title="Animal enthusiast and cat dad" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    pets
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Amateur drummer" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    music_note
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Jogging keeps me in shape - almost in shape" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    directions_run
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Occasional theater goer" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    theater_comedy
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Regular (?) workouts" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    fitness_center
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Swimming when in a warmer climate" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    pool
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Basketball" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    sports_basketball
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Soccer" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    sports_soccer
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Video gaming" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    sports_esports
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Occasional coffee these days" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    coffee
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Tea is life" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    emoji_food_beverage
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Barbecue" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    outdoor_grill
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Greek food cook" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    dining
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Nature nut" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    emoji_nature
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Book worm" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    menu_book
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Movie afficionado" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    theaters
-                  </span>
-                  <span onmouseover="toggleClass(this)" title="Tech geek" class="material-icons grid-item mdl-cell--1-col hobby-icon mdl-shadow--2dp">
-                    system_security_update
-                  </span>
-                </div>
-                <div class="hobbies-text mdl-chip">
-                  <div id="hobbies" class="mdl-chip__text">What do I do in my free time?</div>
-                </div>
-              </div>
-              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
-                <a href="#about2">
-                  <span class="material-icons down-arrow">
-                    arrow_downward
-                  </span>
-                </a>  
-              </button>
-            </div>
-        </section>
-        <section id="about2" class="about2">
-            <div class="container page-content">
-              <div class="about-container-education">
-                <div class="mdl-card mdl-shadow--4dp education-card">
-                  <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">Web Development Diploma</h2>
-                 </div>
-                 <div class="education-media">
-                  <div class="education-img">
-                    <img src="./assets/lhl.jpg" srcset="./assets/lhl.jpg-small.png 480w, ./assets/lhl.jpg 1080w" sizes="50vw" alt="lhl">
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Lighthouse Labs - Graduated February 2020
-                  </div>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   During this 3 month bootcamp, I dived deep in accelarated learning with HTML, CSS, JavaScript and more. Did a lot of hands on coding while having access to a community of Developers.
-                 </div>
-                </div>
-                <div class="mdl-card mdl-shadow--4dp education-card">
-                  <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">BaSc Science & Technology of Telecommunications</h2>
-                 </div>
-                 <div class="education-media">
-                   <div class="education-img">
-                    <img src="./assets/uop.jpg" srcset="./assets/uop.jpg-small.png 480w, ./assets/uop.jpg 1080w" sizes="50vw" alt="uop">
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    University of Peloponnese - Graduated 2016
-                  </div>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   This undergrad degree allowed me to explore the working parts of Telecommunication Channels, while giving me a taste of electrical engineering and the fundamentals of computer science.
-                 </div>
-                </div>
-              </div>
-              <div class="about-container-certification">
-                <div title="Django REST API Certificate" class="mdl-card mdl-shadow--4dp certificate-card">
-                  <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">Build a Backend REST API with Python & Django - Advanced</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Udemy - Dec 2020
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    <a href="https://www.udemy.com/certificate/UC-ec3aea83-2245-4921-b1c7-6f3f3ed19766/">See credential</a>
-                  </div>
-                </div>
-                <div title="CSS - Academind Certificate" class="mdl-card mdl-shadow--4dp certificate-card">
-                  <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Academind - May 2019
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    <a href="https://www.udemy.com/certificate/UC-68OC9ISS/">See credential</a>
-                  </div>
-                </div>
-                <div title="Learn Python Programming Certificate" class="mdl-card mdl-shadow--4dp certificate-card">
-                  <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">Learn Python Programming Masterclass</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Learn Programming Academy - Dec 2018
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    <a href="https://www.udemy.com/certificate/UC-EIRYE0PV/">See credential</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-        <div class="container projects-skills-contact-arrow-button">
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
-              <a href="#projects">
-                <span class="material-icons down-arrow">
-                  arrow_downward
-                </span>
-              </a>  
-            </button>
+          <h2>Full Stack Web Developer</h2>
+          <p>HTML · CSS · JavaScript · React · Angular</p>
+          <a href="#about" class="scroll-btn" aria-label="Scroll to About">
+            <span class="material-icons">arrow_downward</span>
+          </a>
         </div>
-        <section id="projects" class="projects">
-          <div class="page-content">
-            <div class="section-title">
-              <span>
-                <h1>Projects</h1>
-              </span>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about section-full">
+        <div class="container">
+          <div class="about-top">
+            <img
+              class="profile-img"
+              src="assets/profile-pic.jpg"
+              srcset="assets/profile-pic.jpg 1080w"
+              sizes="200px"
+              alt="Panos Hatzinikolaou"
+              width="200"
+              height="200"
+            />
+            <div class="about-text">
+              <h2>Hello there!</h2>
+              <p>
+                I'm Panos, a global nomad and full-stack developer currently
+                discovering the wonders of Ontario. I love coding and the thrill
+                of overcoming a new challenge.
+              </p>
             </div>
-            <div class="divider">
-              <div class="divider-line"></div>
-              <div class="divider-icon">
-                <span class="material-icons">
-                  engineering
-                </span></div>
-              <div class="divider-line"></div>
-            </div>
-            <div id="project0" class="mdl-grid project mdl-shadow--4dp project0">
-              <div class="grid-item mdl-cell--6-col mdl-cell--8-col-tablet">
-                <img src="./assets/paahn-portfolio-cover.png" srcset="./assets/paahn-portfolio-cover-small.png 480w, ./assets/paahn-portfolio-cover.png 1080w" sizes="50vw" alt="portfolio">
-                <div class="overlay">
-                  <div class="overlay-item mobile-overlay-item">My portfolio page</div>
-                  <div class="overlay-item mobile-overlay-item">March 2021</div>
-                  <div class="overlay-item">
-                    <p>
-                      This website! I wanted to utilize the right tools for the right job. Made with nothing but love and pure HTML, CSS and Javascript.
-                    </p>
-                  </div>
-                  <div class="tech-stack">
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        HTML5
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        CSS3
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Javascript
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Material Design Lite
-                      </button>
-                    </div>
-                  </div>
-                  <div class="overlay-item overlay-links">
-                    <div class="overlay-link"><a href="https://github.com/Paahn/paahn-portfolio">Github</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="space"></div>
-            <div id="project1" class="mdl-grid project mdl-shadow--4dp project1">
-              <div class="grid-item mdl-cell--6-col mdl-cell--8-col-tablet">
-                <img src="./assets/shoppies-cover.png" srcset="./assets/shoppies-cover-small.png 480w, ./assets/shoppies-cover.png 1080w" sizes="50vw" alt="shoppies">
-                <div class="overlay">
-                  <div class="overlay-item mobile-overlay-item">The Shoppies</div>
-                  <div class="overlay-item mobile-overlay-item">May 2021</div>
-                  <div class="overlay-item">
-                    <p>
-                      The Shoppies is a movie nomination app, where you can nominate up to 5 movies for the fictional Shoppies awards.
-                    </p>
-                  </div>
-                  <div class="tech-stack">
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        React
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Material UI
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        OMDB API
-                      </button>
-                    </div>
-                  </div>
-                  <div class="overlay-item overlay-links">
-                    <div class="overlay-link"><a href="https://github.com/Paahn/the-shoppies">Github</a></div>
-                    <div class="overlay-gutter"></div>
-                    <div class="overlay-link"><a href="https://the-shoppies-v2.web.app/">Live Project</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="space"></div>
-            <div id="project2" class="mdl-grid project mdl-shadow--4dp project2">
-              <div class="grid-item mdl-cell--6-col mdl-cell--8-col-tablet">
-                <img src="./assets/covid-tracker-cover.png" srcset="./assets/covid-tracker-cover-small.png 480w, ./assets/covid-tracker-cover.png 1080w" sizes="50vw" alt="covid-agent">
-                <div class="overlay">
-                  <div class="overlay-item mobile-overlay-item">Covid19 Agent</div>
-                  <div class="overlay-item mobile-overlay-item">January 2021</div>
-                  <div class="overlay-item">
-                    <p>Track live Covid19 case numbers for all countries. Built to gain familiarity with React.</p>
-                  </div>
-                  <div class="tech-stack">
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        React
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Material UI
-                      </button>
-                    </div>
-                  </div>
-                  <div class="overlay-item overlay-links">
-                    <div class="overlay-link"><a href="https://github.com/Paahn/covid19-agent">Github</a></div>
-                    <div class="overlay-gutter"></div>
-                    <div class="overlay-link"><a href="https://covid19-agent-17892.web.app/">Live Project</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="space"></div>
-            <div id="project3" class="mdl-grid project mdl-shadow--4dp project3">
-              <div class="grid-item mdl-cell--6-col mdl-cell--8-col-tablet">
-                <img src="assets/ngulator-cover.png" srcset="assets/ngulator-cover-small.png 480w, assets/ngulator-cover.png 1080w" sizes="50vw" alt="ngulator">
-                <div class="overlay">
-                  <div class="overlay-item mobile-overlay-item">Ngulator</div>
-                  <div class="overlay-item mobile-overlay-item">May 2020</div>
-                  <div class="overlay-item">
-                    <p>A calculator made to specifically perform calculations between two single digit integers. Hit clear after every calculation to perform the next calculation.</p>
-                  </div>
-                  <div class="tech-stack">
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Angular
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        TypeScript
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Jasmine
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Protractor
-                      </button>
-                    </div>
-                  </div>
-                  <div class="overlay-item overlay-links">
-                    <div class="overlay-link"><a href="https://github.com/Paahn/ngulator">Github</a></div>
-                    <div class="overlay-gutter"></div>
-                    <div class="overlay-link"><a href="https://ngulator-e582e.firebaseapp.com/">Live Project</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="space"></div>
-            <div id="project4" class="mdl-grid project mdl-shadow--4dp project4">
-              <div class="grid-item mdl-cell--6-col mdl-cell--8-col-tablet">
-                <img src="./assets/tinyapp.png" srcset="./assets/tinyapp-small.png 480w, ./assets/tinyapp.png 1080w" sizes="50vw" alt="tinyapp">
-                <div class="overlay">
-                  <div class="overlay-item mobile-overlay-item">TinyApp</div>
-                  <div class="overlay-item mobile-overlay-item">December 2019</div>
-                  <div class="overlay-item">
-                    <p>TinyApp allows users to shorten long URLs. Built at coding bootcamp in 4 days, as the first introduction to full stack development, with more emphasis on backend functionality.</p>
-                  </div>
-                  <div class="tech-stack">
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Node
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Express
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        EJS
-                      </button>
-                    </div>
-                    <div class="overlay-item">
-                      <button class="mdl-button mdl-js-button mdl-button--raised tech-used" disabled>
-                        Chai
-                      </button>
-                    </div>
-                  </div>
-                  <div class="overlay-item overlay-links">
-                    <div class="overlay-link"><a href="https://github.com/Paahn/tinyapp">Github</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="space"></div>
           </div>
-        </section>
-        <div class="container projects-skills-contact-arrow-button">
-          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
-            <a href="#skills">
-              <span class="material-icons down-arrow">
-                arrow_downward
-              </span>
-            </a>  
-          </button>
+
+          <div class="hobbies">
+            <div class="hobbies-grid">
+              <span
+                class="hobby-icon material-icons"
+                title="Animal enthusiast and cat dad"
+                >pets</span
+              >
+              <span class="hobby-icon material-icons" title="Amateur drummer"
+                >music_note</span
+              >
+              <span
+                class="hobby-icon material-icons"
+                title="Jogging keeps me in shape"
+                >directions_run</span
+              >
+              <span
+                class="hobby-icon material-icons"
+                title="Occasional theater goer"
+                >theater_comedy</span
+              >
+              <span class="hobby-icon material-icons" title="Regular workouts"
+                >fitness_center</span
+              >
+              <span
+                class="hobby-icon material-icons"
+                title="Swimming when in a warmer climate"
+                >pool</span
+              >
+              <span class="hobby-icon material-icons" title="Basketball"
+                >sports_basketball</span
+              >
+              <span class="hobby-icon material-icons" title="Soccer"
+                >sports_soccer</span
+              >
+              <span class="hobby-icon material-icons" title="Video gaming"
+                >sports_esports</span
+              >
+              <span class="hobby-icon material-icons" title="Occasional coffee"
+                >coffee</span
+              >
+              <span class="hobby-icon material-icons" title="Tea is life"
+                >emoji_food_beverage</span
+              >
+              <span class="hobby-icon material-icons" title="Barbecue"
+                >outdoor_grill</span
+              >
+              <span class="hobby-icon material-icons" title="Greek food cook"
+                >dining</span
+              >
+              <span class="hobby-icon material-icons" title="Nature nut"
+                >emoji_nature</span
+              >
+              <span class="hobby-icon material-icons" title="Book worm"
+                >menu_book</span
+              >
+              <span class="hobby-icon material-icons" title="Movie afficionado"
+                >theaters</span
+              >
+              <span class="hobby-icon material-icons" title="Tech geek"
+                >system_security_update</span
+              >
+            </div>
+            <div class="hobby-chip">
+              <span id="hobbies">What do I do in my free time?</span>
+            </div>
+          </div>
+
+          <a href="#about2" class="scroll-btn">
+            <span class="material-icons">arrow_downward</span>
+          </a>
         </div>
-        <section id="skills" class="skills">
-          <div class="page-content">
-            <div class="section-title">
-              <span>
-                <h1>Skills</h1>
-              </span>
-            </div>
-            <div class="divider">
-              <div class="divider-line"></div>
-              <div class="divider-icon">
-                <span class="material-icons">
-                  self_improvement
-                </span></div>
-              <div class="divider-line"></div>
-            </div>
-            <div id="skills-animation">
-              <div id="animated-skill-flip-card" class="animated-skill">
-                <img src="assets/paahn-green.png" srcset="assets/paahn-green-small.png 480w, assets/paahn-green.png 1080w" sizes="50vw" alt="flip-dis">
-                <p>Flip the deck</p>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="about2" class="about2 section-auto">
+        <div class="container">
+          <div class="education-grid">
+            <article class="card">
+              <h3>Web Development Diploma</h3>
+              <img src="./assets/lhl.jpg" alt="Lighthouse Labs" height="52" />
+              <p class="card-meta">Lighthouse Labs — Graduated February 2020</p>
+              <p>
+                3-month bootcamp with deep dives into HTML, CSS, JavaScript and
+                more, with access to a community of developers.
+              </p>
+            </article>
+            <article class="card">
+              <h3>BaSc Science &amp; Technology of Telecommunications</h3>
+              <img
+                src="./assets/uop.jpg"
+                alt="University of Peloponnese"
+                height="52"
+              />
+              <p class="card-meta">
+                University of Peloponnese — Graduated 2016
+              </p>
+              <p>
+                Explored Telecommunication Channels, electrical engineering
+                fundamentals, and computer science basics.
+              </p>
+            </article>
+          </div>
+
+          <div class="cert-grid">
+            <article class="card card-sm">
+              <h4>
+                Build a Backend REST API with Python &amp; Django — Advanced
+              </h4>
+              <p class="card-meta">Udemy · Dec 2020</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-ec3aea83-2245-4921-b1c7-6f3f3ed19766/"
+                target="_blank"
+                rel="noopener"
+                >See credential →</a
+              >
+            </article>
+            <article class="card card-sm">
+              <h4>CSS — The Complete Guide 2020</h4>
+              <p class="card-meta">Academind · May 2019</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-68OC9ISS/"
+                target="_blank"
+                rel="noopener"
+                >See credential →</a
+              >
+            </article>
+            <article class="card card-sm">
+              <h4>Learn Python Programming Masterclass</h4>
+              <p class="card-meta">Learn Programming Academy · Dec 2018</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-EIRYE0PV/"
+                target="_blank"
+                rel="noopener"
+                >See credential →</a
+              >
+            </article>
+          </div>
+
+          <a href="#projects" class="scroll-btn">
+            <span class="material-icons">arrow_downward</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects section-auto">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="divider">
+            <div class="divider-line"></div>
+            <span class="material-icons">engineering</span>
+            <div class="divider-line"></div>
+          </div>
+
+          <div id="project0" class="project project0">
+            <img
+              src="./assets/paahn-portfolio-cover.png"
+              srcset="
+                ./assets/paahn-portfolio-cover-small.png  480w,
+                ./assets/paahn-portfolio-cover.png       1080w
+              "
+              sizes="(max-width: 680px) 100vw, 680px"
+              alt="Portfolio project screenshot"
+            />
+            <div class="overlay">
+              <p class="overlay-title">My Portfolio · March 2021</p>
+              <p>
+                This website — made with love using pure HTML, CSS and
+                JavaScript.
+              </p>
+              <div class="tech-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
               </div>
-              <div id="animated-skill-html-css" class="animated-skill">
-                <img src="assets/html-css.png" srcset="assets/html-css-small.png 480w, assets/html-css.png 1080w" sizes="50vw" alt="html-css">
-              </div>
-              <div id="animated-skill-js" class="animated-skill">
-                <img src="assets/javascript.png" srcset="assets/javascript-small.png 480w, assets/javascript.png 1080w" sizes="50vw" alt="javascript">
-              </div>
-              <div id="animated-skill-sass" class="animated-skill">
-                <img src="assets/sass.png" srcset="assets/sass-small.png 480w, assets/sass.png 1080w" sizes="50vw" alt="sass">
-              </div>
-              <div id="animated-skill-vue" class="animated-skill">
-                <img src="assets/vue.png" srcset="assets/vue-small.png 480w, assets/vue.png 1080w" sizes="50vw" alt="vue">
-              </div>
-              <div id="animated-skill-psql" class="animated-skill">
-                <img src="assets/postgresql.png" srcset="assets/postgresql-small.png 480w, assets/postgresql.png 1080w" sizes="50vw" alt="psql">
-              </div>
-              <div id="animated-skill-py-django" class="animated-skill">
-                <img src="assets/python-django.png" srcset="assets/python-django-small.png 480w, assets/python-django.png 1080w" sizes="50vw" alt="python">
-              </div>
-              <div id="animated-skill-node" class="animated-skill">
-                <img src="assets/node.png" srcset="assets/node-small.png 480w, assets/node.png 1080w" sizes="50vw" alt="node">
-              </div>
-              <div id="animated-skill-sql" class="animated-skill">
-                <img src="assets/sql.png" srcset="assets/sql-small.png 480w, assets/sql.png 1080w" sizes="50vw" alt="sql">
-              </div>
-              <div id="animated-skill-mongo" class="animated-skill">
-                <img src="assets/mongodb.png" srcset="assets/mongodb-small.png 480w, assets/mongodb.png 1080w" sizes="50vw" alt="mongodb">
-              </div>
-              <div id="animated-skill-rails" class="animated-skill">
-                <img src="assets/ruby-on-rails.png" srcset="assets/ruby-on-rails-small.png 480w, assets/ruby-on-rails.png 1080w" sizes="50vw" alt="rails">
-              </div>
-              <div id="animated-skill-git" class="animated-skill">
-                <img src="assets/git.png" srcset="assets/git-small.png 480w, assets/git.png 1080w" sizes="50vw" alt="git">
-              </div>
-              <div id="animated-skill-graphql" class="animated-skill">
-                <img src="assets/graphql.png" srcset="assets/graphql-small.png 480w, assets/graphql.png 1080w" sizes="50vw" alt="graphql">
-              </div>
-              <div id="animated-skill-react" class="animated-skill">
-                <img src="assets/react.png" srcset="assets/react-small.png 480w, assets/react.png 1080w" sizes="50vw" alt="react">
-              </div>
-              <div id="animated-skill-angular" class="animated-skill">
-                <img src="assets/angular.png" srcset="assets/angular-small.png 480w, assets/angular.png 1080w" sizes="50vw" alt="angular">
+              <div class="overlay-links">
+                <a
+                  href="https://github.com/Paahn/paahn-portfolio"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
               </div>
             </div>
           </div>
-        </section>
-        <div class="container projects-skills-contact-arrow-button">
-          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab arrow-button">
-            <a href="#contact">
-              <span class="material-icons down-arrow">
-                arrow_downward
-              </span>
-            </a>  
-          </button>
+
+          <div id="project1" class="project project1">
+            <img
+              src="./assets/shoppies-cover.png"
+              srcset="
+                ./assets/shoppies-cover-small.png  480w,
+                ./assets/shoppies-cover.png       1080w
+              "
+              sizes="(max-width: 680px) 100vw, 680px"
+              alt="The Shoppies project screenshot"
+            />
+            <div class="overlay">
+              <p class="overlay-title">The Shoppies · May 2021</p>
+              <p>
+                A movie nomination app — nominate up to 5 films for the
+                fictional Shoppies awards.
+              </p>
+              <div class="tech-tags">
+                <span>React</span><span>Material UI</span><span>OMDB API</span>
+              </div>
+              <div class="overlay-links">
+                <a
+                  href="https://github.com/Paahn/the-shoppies"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://the-shoppies-v2.web.app/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live →</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div id="project2" class="project project2">
+            <img
+              src="./assets/covid-tracker-cover.png"
+              srcset="
+                ./assets/covid-tracker-cover-small.png  480w,
+                ./assets/covid-tracker-cover.png       1080w
+              "
+              sizes="(max-width: 680px) 100vw, 680px"
+              alt="Covid19 Agent project screenshot"
+            />
+            <div class="overlay">
+              <p class="overlay-title">Covid19 Agent · January 2021</p>
+              <p>
+                Track live Covid-19 case numbers for all countries. Built to
+                gain familiarity with React.
+              </p>
+              <div class="tech-tags">
+                <span>React</span><span>Material UI</span>
+              </div>
+              <div class="overlay-links">
+                <a
+                  href="https://github.com/Paahn/covid19-agent"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://covid19-agent-17892.web.app/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live →</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div id="project3" class="project project3">
+            <img
+              src="assets/ngulator-cover.png"
+              srcset="
+                assets/ngulator-cover-small.png  480w,
+                assets/ngulator-cover.png       1080w
+              "
+              sizes="(max-width: 680px) 100vw, 680px"
+              alt="Ngulator project screenshot"
+            />
+            <div class="overlay">
+              <p class="overlay-title">Ngulator · May 2020</p>
+              <p>
+                A calculator for single-digit integer operations, built to
+                explore Angular and TypeScript.
+              </p>
+              <div class="tech-tags">
+                <span>Angular</span><span>TypeScript</span><span>Jasmine</span
+                ><span>Protractor</span>
+              </div>
+              <div class="overlay-links">
+                <a
+                  href="https://github.com/Paahn/ngulator"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://ngulator-e582e.firebaseapp.com/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live →</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div id="project4" class="project project4">
+            <img
+              src="./assets/tinyapp.png"
+              srcset="
+                ./assets/tinyapp-small.png  480w,
+                ./assets/tinyapp.png       1080w
+              "
+              sizes="(max-width: 680px) 100vw, 680px"
+              alt="TinyApp project screenshot"
+            />
+            <div class="overlay">
+              <p class="overlay-title">TinyApp · December 2019</p>
+              <p>
+                A URL shortener built in 4 days at bootcamp — first full-stack
+                project with emphasis on backend.
+              </p>
+              <div class="tech-tags">
+                <span>Node</span><span>Express</span><span>EJS</span
+                ><span>Chai</span>
+              </div>
+              <div class="overlay-links">
+                <a
+                  href="https://github.com/Paahn/tinyapp"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <a href="#skills" class="scroll-btn">
+            <span class="material-icons">arrow_downward</span>
+          </a>
         </div>
-        <section id="contact" class="contact">
-            <div class="container page-content">
-              <div class="section-title">
-                <span>
-                  <h1>Contact me</h1>
-                </span>
-              </div>
-              <div class="divider">
-                <div class="divider-line"></div>
-                <div class="divider-icon">
-                  <span class="material-icons">
-                    connect_without_contact
-                  </span></div>
-                <div class="divider-line"></div>
-              </div>
-              <div class="form-wrap">
-                <form action="https://formspree.io/f/moqyakkd" method="POST">
-                  <div class="form-group">
-                    <input class="mdl-textfield__input" name="name" type="text" id="form-name" data-required>
-                    <label class="mdl-textfield__label" for="form-name">Your name</label>
-                  </div>
-                  <div class="form-group">
-                    <input class="mdl-textfield__input" name="_replyto" type="email" id="form-email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-required>
-                    <label class="mdl-textfield__label" for="form-email">Your email</label>
-                    <span class="mdl-textfield__error">Please enter a valid email address</span>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="mdl-textfield__input message-input" name="message" type="text" id="form-msg" data-required></textarea>
-                    <label class="mdl-textfield__label" for="form-msg">Your message</label>
-                  </div>
-                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="submit-button">
-                    Send
-                  </button>
-                </form>
-              </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills section-auto">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="divider">
+            <div class="divider-line"></div>
+            <span class="material-icons">self_improvement</span>
+            <div class="divider-line"></div>
+          </div>
+
+          <div id="skills-animation">
+            <div id="animated-skill-flip-card" class="animated-skill">
+              <img src="assets/paahn-green.png" alt="flip" />
+              <p>Flip the deck</p>
             </div>
-        </section>
-        <div class="return-button">
-          <button class="mdl-button mdl-button--raised mdl-js-ripple-effect arrow-button return-to-top">
-            <a href="#home">
-              <div>
-                <span class="material-icons down-arrow">
-                  arrow_upward
-                </span>
-                <p>Return to top</p> 
-              </div>
-            </a>  
-          </button>
+            <div id="animated-skill-html-css" class="animated-skill">
+              <img src="assets/html-css.png" alt="HTML CSS" />
+            </div>
+            <div id="animated-skill-js" class="animated-skill">
+              <img src="assets/javascript.png" alt="JavaScript" />
+            </div>
+            <div id="animated-skill-sass" class="animated-skill">
+              <img src="assets/sass.png" alt="Sass" />
+            </div>
+            <div id="animated-skill-vue" class="animated-skill">
+              <img src="assets/vue.png" alt="Vue" />
+            </div>
+            <div id="animated-skill-psql" class="animated-skill">
+              <img src="assets/postgresql.png" alt="PostgreSQL" />
+            </div>
+            <div id="animated-skill-py-django" class="animated-skill">
+              <img src="assets/python-django.png" alt="Python Django" />
+            </div>
+            <div id="animated-skill-node" class="animated-skill">
+              <img src="assets/node.png" alt="Node" />
+            </div>
+            <div id="animated-skill-sql" class="animated-skill">
+              <img src="assets/sql.png" alt="SQL" />
+            </div>
+            <div id="animated-skill-mongo" class="animated-skill">
+              <img src="assets/mongodb.png" alt="MongoDB" />
+            </div>
+            <div id="animated-skill-rails" class="animated-skill">
+              <img src="assets/ruby-on-rails.png" alt="Rails" />
+            </div>
+            <div id="animated-skill-git" class="animated-skill">
+              <img src="assets/git.png" alt="Git" />
+            </div>
+            <div id="animated-skill-graphql" class="animated-skill">
+              <img src="assets/graphql.png" alt="GraphQL" />
+            </div>
+            <div id="animated-skill-react" class="animated-skill">
+              <img src="assets/react.png" alt="React" />
+            </div>
+            <div id="animated-skill-angular" class="animated-skill">
+              <img src="assets/angular.png" alt="Angular" />
+            </div>
+          </div>
+
+          <a href="#contact" class="scroll-btn">
+            <span class="material-icons">arrow_downward</span>
+          </a>
         </div>
-        <footer class="mdl-mini-footer">
-            <div class="footer-social-icons">
-              <h4 class="social-media-title">Social Media</h4>
-              <ul class="social-icons">
-                <li><a href="https://www.linkedin.com/in/panos-hatzinikolaou-2712a1a3/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/Paahn" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github"></i></a></li>
-                <li><a href="https://stackoverflow.com/users/10130360/paahn" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-stack-overflow"></i></a></li>
-                <li><a href="https://twitter.com/Phatzis" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.reddit.com/user/paahn_dev" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-reddit"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCchdtarWH42qZqpstYrn4ww" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-youtube"></i></a></li>
-              </ul>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact section-full">
+        <div class="container center-col">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="divider">
+            <div class="divider-line"></div>
+            <span class="material-icons">connect_without_contact</span>
+            <div class="divider-line"></div>
+          </div>
+
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/moqyakkd"
+            method="POST"
+          >
+            <div class="field-group">
+              <label for="form-name">Your name</label>
+              <input
+                id="form-name"
+                name="name"
+                type="text"
+                required
+                placeholder="Panos"
+              />
             </div>
-            <div class="footer-copyright">
-              <h5>Copyright © Panos Hatzinikolaou 2025</h5>
+            <div class="field-group">
+              <label for="form-email">Your email</label>
+              <input
+                id="form-email"
+                name="_replyto"
+                type="email"
+                required
+                placeholder="panos@example.com"
+              />
             </div>
-        </footer> 
-      </main>
-    </div>
-    <script src="./active-navbar.js"></script>
-    <script src="./required-field.js"></script>
-    <script>
-      function toggleClass(x){
-        var element = x;
-        document.getElementById("hobbies").innerHTML = `${element.title}`;
-      }
-    </script>
-    <script>
-      document.getElementById("menu-toggle").onclick = () => {
-        document.getElementById("mobile-menu").classList.toggle("hidden");
-      };
-    </script>
-</body>
+            <div class="field-group">
+              <label for="form-msg">Your message</label>
+              <textarea
+                id="form-msg"
+                name="message"
+                required
+                placeholder="Hello Panos..."
+              ></textarea>
+            </div>
+            <button id="submit-button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h4>Find me online</h4>
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/panos-hatzinikolaou-2712a1a3/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Paahn"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://stackoverflow.com/users/10130360/paahn"
+            target="_blank"
+            rel="noopener"
+            aria-label="Stack Overflow"
+            ><i class="fa fa-stack-overflow"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/Phatzis"
+            target="_blank"
+            rel="noopener"
+            aria-label="Twitter"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.reddit.com/user/paahn_dev"
+            target="_blank"
+            rel="noopener"
+            aria-label="Reddit"
+            ><i class="fa fa-reddit"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCchdtarWH42qZqpstYrn4ww"
+            target="_blank"
+            rel="noopener"
+            aria-label="YouTube"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="copyright">© Panos Hatzinikolaou 2026</p>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+      <span class="material-icons">arrow_upward</span>
+    </a>
+
+    <script type="module" src="./javascript/main.js"></script>
+  </body>
 </html>
